@@ -1,0 +1,204 @@
+@charset "utf-8";
+/*==================================================
+ Eric Meyer's Global CSS Reset
+ ==================================================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	/*background:url(../images/bg.jpg) left top repeat;/*background: url(../images/body-bg.jpg) center top no-repeat;*/
+	background-color:white;
+	color:rgb(13, 145, 197);
+	display:table;
+	width:100%;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+}
+em {
+	display:block;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+input {
+	border:none;
+	background:none;
+	outline:none;
+	margin:0;
+	padding:0;
+}
+ .shadow, .header-aside ul li+li+li, .nav-section, .latest-product h2, .fc-platform, .product-info,.fb_iframe_widget,.plugin {
+behavior: url(PIE.htc);
+ position:relative;
+z-index:55;
+}
+@font-face {
+	font-family: 'geoslab703_xbdcn_btextra_bold';
+	src: url('../fonts/ge703xbc-webfont.eot');
+	src: url('../fonts/ge703xbc-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ge703xbc-webfont.woff') format('woff'),  url('../fonts/ge703xbc-webfont.ttf') format('truetype'),  url('../fonts/ge703xbc-webfont.svg#geoslab703_xbdcn_btextra_bold') format('svg');
+}
+@font-face {
+	font-family: 'dinregular';
+	src: url('../fonts/din-regular_0-webfont.eot');
+	src: url('../fonts/din-regular_0-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/din-regular_0-webfont.woff') format('woff'),  url('../fonts/din-regular_0-webfont.ttf') format('truetype'),  url('../fonts/din-regular_0-webfont.svg#dinregular') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_xbdit_btXBdIt';
+	src: url('../fonts/ge703xbi-webfont.eot');
+	src: url('../fonts/ge703xbi-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ge703xbi-webfont.woff') format('woff'),  url('../fonts/ge703xbi-webfont.ttf') format('truetype'),  url('../fonts/ge703xbi-webfont.svg#geoslab703_xbdit_btXBdIt') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_md_btbold';
+	src: url('../fonts/geo703b-webfont.eot');
+	src: url('../fonts/geo703b-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703b-webfont.woff') format('woff'),  url('../fonts/geo703b-webfont.ttf') format('truetype'),  url('../fonts/geo703b-webfont.svg#geoslab703_md_btbold') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_xbd_btextra_bold';
+	src: url('../fonts/geo703xb-webfont.eot');
+	src: url('../fonts/geo703xb-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703xb-webfont.woff') format('woff'),  url('../fonts/geo703xb-webfont.ttf') format('truetype'),  url('../fonts/geo703xb-webfont.svg#geoslab703_xbd_btextra_bold') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_mdcn_btmedium';
+	src: url('../fonts/geo703mc-webfont.eot');
+	src: url('../fonts/geo703mc-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703mc-webfont.woff') format('woff'),  url('../fonts/geo703mc-webfont.ttf') format('truetype'),  url('../fonts/geo703mc-webfont.svg#geoslab703_mdcn_btmedium') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_md_btmedium_italic';
+	src: url('../fonts/geo703mi-webfont.eot');
+	src: url('../fonts/geo703mi-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703mi-webfont.woff') format('woff'),  url('../fonts/geo703mi-webfont.ttf') format('truetype'),  url('../fonts/geo703mi-webfont.svg#geoslab703_md_btmedium_italic') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_lt_btlight_italic';
+	src: url('../fonts/geo703li-webfont.eot');
+	src: url('../fonts/geo703li-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703li-webfont.woff') format('woff'),  url('../fonts/geo703li-webfont.ttf') format('truetype'),  url('../fonts/geo703li-webfont.svg#geoslab703_lt_btlight_italic') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_md_btmedium';
+	src: url('../fonts/geo703m-webfont.eot');
+	src: url('../fonts/geo703m-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703m-webfont.woff') format('woff'),  url('../fonts/geo703m-webfont.ttf') format('truetype'),  url('../fonts/geo703m-webfont.svg#geoslab703_md_btmedium') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_md_btbold_italic';
+	src: url('../fonts/geo703bi-webfont.eot');
+	src: url('../fonts/geo703bi-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703bi-webfont.woff') format('woff'),  url('../fonts/geo703bi-webfont.ttf') format('truetype'),  url('../fonts/geo703bi-webfont.svg#geoslab703_md_btbold_italic') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_lt_btlight';
+	src: url('../fonts/geo703l-webfont.eot');
+	src: url('../fonts/geo703l-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703l-webfont.woff') format('woff'),  url('../fonts/geo703l-webfont.ttf') format('truetype'),  url('../fonts/geo703l-webfont.svg#geoslab703_lt_btlight') format('svg');
+}
+@font-face {
+	font-family: 'geoslab703_mdcn_btbold';
+	src: url('../fonts/geo703bc-webfont.eot');
+	src: url('../fonts/geo703bc-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/geo703bc-webfont.woff') format('woff'),  url('../fonts/geo703bc-webfont.ttf') format('truetype'),  url('../fonts/geo703bc-webfont.svg#geoslab703_mdcn_btbold') format('svg');
+}
+/*Global declaration*/	
+
+input {
+	width: 218px;
+	background: url(../images/textbox.png) left top no-repeat;
+	height:26px;
+	text-transform:uppercase;
+	color:#6a6868;
+	display:block;
+	font: italic 12px/14px Arial, Helvetica, sans-serif;
+}
+label {
+	font-size:16px;
+	line-height:24px;
+	font-family: 'geoslab703_md_btmedium';
+	color:#cfcece;
+	text-transform:uppercase;
+}
+textarea {
+	border:none;
+	outline:none;
+	width:301px;
+	height:123px;
+}
+address {
+	font-style:normal;
+}
+input:focus {
+	color:#30F;
+}
+a:hover {
+	text-decoration:underline;
+}
+a {
+	text-decoration:none;
+}
+h1 {
+	color:#3a3939;
+	font-family: 'geoslab703_md_btbold';
+	font-size:41px;
+	line-height:29px;
+}
+h2 {
+	font-size:19px;
+	color:#fff;
+	font-family: 'geoslab703_md_btmedium';
+}
+h4 {
+	font-size:9px;
+	color:#7c7c7c;
+}
+.slides_container {
+	width:722px;
+	display:none;
+}
+.slides_container .imgeslider {
+	width:722px;
+	height:328px;
+	display:block;
+}
+.pagination {
+	position:absolute;
+	z-index:12;
+	bottom:14px;
+	right:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.pagination li {
+	float:left;
+	margin-right:7px;
+}
+.pagination li a {
+	background:url(../images/circle.png) left top no-repeat;
+	display:block;
+	width:19px;
+	height:19px;
+	text-indent:-99999px;
+}
+.pagination .current a {
+	background:url(../images/circle-h.png) left top no-repeat;
+	height:19px;
+	width:19px;
+}

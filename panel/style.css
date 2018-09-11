@@ -1,0 +1,122 @@
+body{
+	font-family: Tahoma;
+	text-align: center; 
+	background:url(images/bg.jpg) left top repeat;/*background: url(../images/body-bg.jpg) center top no-repeat;*/
+}
+#header {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 930px;
+	border: 1px solid #272727;
+	text-align: left;
+	background:#fff;
+}
+
+#content {
+	margin-left: 230px;
+	padding:0px 10px 0 0;
+	
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+	top: 0px;
+	left: 0;
+	width: 180px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-weight:bold;
+	
+}
+
+#menu li {
+	width: 180px;
+	border-bottom: 1px solid #969BA5;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+
+}
+#menu li a {
+	background:url(images/m-icon.png)left center no-repeat;
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-right: 1px solid #969BA5;
+	color: #011D5C;
+	text-decoration: none;
+	padding-left:18px;
+}
+#menu a:hover {
+	text-decoration:underline;
+}
+
+a:link,a:visited {
+  color:#D22E23;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font: normal 120% Georgia;
+	color: #D22E23;
+	background-color: transparent;
+	border-bottom: 1px dotted #D22E23;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #D22E23;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+  clear :both;
+	padding: 20px 0 10px 255px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color: #272727;
+}
